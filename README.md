@@ -1,6 +1,6 @@
 # Interfaces in Javascript
 
-A different kind of approach to implementing interfaces in javascript.
+A different kind of approach to implementing interfaces in javascript. This one forces you to pass the interface method implementations when creating an actual object, rather than a class.
 
 ## Example
 ```
