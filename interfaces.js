@@ -19,8 +19,8 @@
 
     function getContractMethods (contract) {
         if (isArray(contract)) {
-            return contract.reduce(function (curry, current) {
-                return curry.concat(getContractMethods(current));
+            return contract.reduce(function (carry, current) {
+                return carry.concat(getContractMethods(current));
             }, []);
         }
 
